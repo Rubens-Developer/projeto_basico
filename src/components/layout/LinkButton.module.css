@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.btn {
+    color: #FFF;
+    background-color: #222;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: .7em;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #FFBB33;
+}
