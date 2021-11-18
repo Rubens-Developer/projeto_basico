@@ -3,7 +3,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 75em;
     margin: 0 auto;
 }
 .min-height {

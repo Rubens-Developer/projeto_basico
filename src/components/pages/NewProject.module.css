@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.newproject_container {
+    width: 25em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.newproject_container h1 {
+    margin-bottom: 0.5em;
+}
+
+.newproject_container p {
+    color: #5B5B5B;
+}
