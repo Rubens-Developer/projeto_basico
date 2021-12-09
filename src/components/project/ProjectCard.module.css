@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.project_card {
+    padding: 1em;
+    border: 1px solid #7A7A7A;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.project_card h4 {
+    color: #FFBB33;
+    background-color: #222;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card p {
+    color: #7A7A7A;
+    margin-bottom: 1em;
+}
+
+.project_card p span {
+    font-weight: bold;
+}
+
+.categpry_text {
+    display: flex;
+    align-items: center;
+}
+
+.categpry_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #CCC;
+    margin-right: 5px;
+}
+
+.categpry_text .infra {
+    color: #FFAEBC;
+}
+
+.categpry_text .desevolvimento {
+    color: #A0E7E5;
+}
+
+.categpry_text design {
+    color: #B4F8C8;
+}
+
+.categpry_text planejamento {
+    color: #FBE7C6;
+}
+
+.project_card_actions {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2em;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+    padding: 0.6em 1em;
+    color: #222;
+    background-color: #FFF;
+    border: none;
+    border: 1px solid #222;
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+    color: #FFBB33;
+    background-color: #222;
+}
+
+.project_card_actions svg {
+    margin-right: .5em;
+}
